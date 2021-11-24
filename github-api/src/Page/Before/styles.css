@@ -1,0 +1,40 @@
+.github-search-before {
+  width: 1248px;
+  height: 260px;
+  background: #e6f7ff;
+  border-radius: 16px;
+  padding: 54px 41px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.github-search-before h2 {
+  font-size: 38px;
+line-height: 46px;
+  padding-left: 10px;
+}
+
+.search-input {
+  width: 298px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #bfbfbf;
+  padding: 8px 15px;
+}
+
+.search-button {
+  display: flex;
+  border-radius: 4px;
+  background: #1890ff;
+  width: 101px;
+  height: 40px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 16px;
+  align-items: center;
+  line-height: 24px;
+  padding: 15px;
+}
