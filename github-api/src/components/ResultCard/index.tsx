@@ -1,20 +1,22 @@
+
 import './styles.css';
 
 type Props = {
     title1: string;
     description1: string;
     title2: string;
-    description2: string;
+    description2: number;
     title3: string;
     description3: string;
     title4: string;
     description4: string;
-}
+    description5: string;
+  }
 
-const ResultCard = ( {title1, description1, title2, description2, title3, description3, title4, description4} : Props) => {
+
+const ResultCard = ( {title1, description1, title2, description2, title3, description3, title4, description4, description5} : Props) => {
   return (
     <div className="result-container">
-        
       <div className="result-card-container">
         <h4>Informações</h4>
         <div className="result-card">
@@ -34,6 +36,9 @@ const ResultCard = ( {title1, description1, title2, description2, title3, descri
         <p>{description4}</p>
         </div>
     </div>
+    <div className="result-container-avatar">
+        <img src={description5} alt=""/>
+        </div>
     </div>
   );
 }
