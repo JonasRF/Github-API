@@ -1,19 +1,9 @@
 import axios from 'axios';
 import { useState } from 'react';
 import ResultCard from '../../components/ResultCard';
+import { address } from '../../types/address';
+import { FormData } from '../../types/formData';
 import './styles.css';
-
-type FormData = {
-  login: string;
-};
-
-type address = {
-  avatar_url: string;
-  url: string;
-  followers: number;
-  location: string;
-  name: string;
-};
 
 const Before = () => {
   const [address, setAddress] = useState<address>();
@@ -78,8 +68,6 @@ const Before = () => {
         title4="Nome:"
         description4={address.name}
         description5={address.avatar_url}
-        
-        
       />
       </>
       )}
